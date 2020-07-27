@@ -65,6 +65,10 @@ input[type='text']:focus {
     color: #fff;
 }
 
+.calc-body {
+    user-select: none;
+}
+
 .calc-button-row {
     width: 100%;
 }
