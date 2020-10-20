@@ -10,38 +10,38 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6 mb-4">
-                <div class="pin-generator half-width">
-                    <input id="showPin" class="form-control text-center" type="text">
-                    <button onclick="generatePin()" class="generate-btn">Generate Pin</button>
+            <div class="col-md-6 mb-4 mb-md-0">
+                <div class="pin-generator bg-dark rounded text-center h-100 pt-5">
+                    <input id="showPin" class="form-control text-center" type="text" readonly>
+                    <button onclick="generatePin()" class="generate-btn rounded-circle text-center p-5 my-5 text-white">Generate Pin</button>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="input-section half-width">
+                <div class="input-section bg-dark rounded text-center h-100 pt-5">
                     <input id="typePin" class="form-control text-center" type="text">
-                    <div class="numbers">
+                    <div class="mt-5">
                         <div class="calc-body">
                             <div class="calc-button-row">
-                                <div class="button" id="7" onclick="keyPress(7)">7</div>
-                                <div class="button" id="8" onclick="keyPress(8)">8</div>
-                                <div class="button" id="9" onclick="keyPress(9)">9</div>
+                                <div class="button w-25" id="7" onclick="keyPress(7)">7</div>
+                                <div class="button w-25" id="8" onclick="keyPress(8)">8</div>
+                                <div class="button w-25" id="9" onclick="keyPress(9)">9</div>
                             </div>
                             <div class="calc-button-row">
-                                <div class="button" id="4" onclick="keyPress(4)">4</div>
-                                <div class="button" id="5" onclick="keyPress(5)">5</div>
-                                <div class="button" id="6" onclick="keyPress(6)">6</div>
+                                <div class="button w-25" id="4" onclick="keyPress(4)">4</div>
+                                <div class="button w-25" id="5" onclick="keyPress(5)">5</div>
+                                <div class="button w-25" id="6" onclick="keyPress(6)">6</div>
                             </div>
                             <div class="calc-button-row">
-                                <div class="button" id="1" onclick="keyPress(1)">1</div>
-                                <div class="button" id="2" onclick="keyPress(2)">2</div>
-                                <div class="button" id="3" onclick="keyPress(3)">3</div>
+                                <div class="button w-25" id="1" onclick="keyPress(1)">1</div>
+                                <div class="button w-25" id="2" onclick="keyPress(2)">2</div>
+                                <div class="button w-25" id="3" onclick="keyPress(3)">3</div>
                             </div>
                             <div class="calc-button-row">
-                                <div class="button" onclick="clearLast()">&lt;</div>
-                                <div class="button" id="0" onclick="keyPress(0)">0</div>
-                                <div class="button" onclick="clearAll()">C</div>
+                                <div class="button w-25" onclick="clearLast()">&lt;</div>
+                                <div class="button w-25" id="0" onclick="keyPress(0)">0</div>
+                                <div class="button w-25" onclick="clearAll()">C</div>
                             </div>
                             <div>
                                 <button id="check" type="submit" class="submit-btn" onclick="submit()">Submit</button>
