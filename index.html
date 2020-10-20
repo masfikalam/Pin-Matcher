@@ -12,12 +12,16 @@
 <body>
     <div class="container mt-5">
         <div class="row">
+
+            <!-- pin generator -->
             <div class="col-md-6 mb-4 mb-md-0">
                 <div class="pin-generator bg-dark rounded text-center h-100 pt-5">
                     <input id="showPin" class="form-control text-center" type="text" readonly>
                     <button onclick="generatePin()" class="generate-btn rounded-circle text-center p-5 my-5 text-white">Generate Pin</button>
                 </div>
             </div>
+
+            <!-- number pad -->
             <div class="col-md-6">
                 <div class="input-section bg-dark rounded text-center h-100 pt-5">
                     <input id="typePin" class="form-control text-center" type="text">
@@ -56,7 +60,6 @@
                 <p class="notify" id="matched">✅ Pin Matched... Secret door is opening for you</p>
             </div>
         </div>
-
 
         <!-- scripts -->
         <script src="script.js"></script>
